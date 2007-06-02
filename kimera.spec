@@ -1,5 +1,5 @@
-%define version   1.32
-%define release   %mkrel 2
+%define version   1.40
+%define release   %mkrel 1
 
 Name:      kimera
 Summary:   Another input method for Japanese
@@ -11,7 +11,6 @@ URL:       http://kimera.sourceforge.jp/
 Source0:   http://prdownloads.sourceforge.jp/kimera/17746/%{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:        anthy, prime
-Requires:        libqt3
 BuildRequires:   anthy-devel, prime
 BuildRequires:   qt3-devel, X11-devel
 
