@@ -9,7 +9,6 @@ Group:     System/Internationalization
 License:   GPL
 URL:       http://kimera.sourceforge.jp/
 Source0:   http://prdownloads.sourceforge.jp/kimera/17746/%{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:        anthy, prime
 BuildRequires:   anthy-devel, prime
 BuildRequires:   qt3-devel, X11-devel
