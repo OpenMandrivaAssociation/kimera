@@ -1,5 +1,5 @@
 %define version   1.40
-%define release   %mkrel 3
+%define release   %mkrel 4
 
 Name:      kimera
 Summary:   Another input method for Japanese
