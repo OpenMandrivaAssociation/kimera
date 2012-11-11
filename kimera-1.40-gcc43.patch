@@ -1,0 +1,10 @@
+--- src/inputmethod.cpp.gcc	2010-02-19 20:11:08.000000000 +0100
++++ src/inputmethod.cpp	2010-02-19 20:13:40.000000000 +0100
+@@ -12,6 +12,7 @@
+ #include <qtimer.h>
+ #include <ctype.h>
+ #include <string.h>
++#include <alloca.h>
+ #include <X11/Xlib.h>
+ #include <X11/Xatom.h>
+ #include <X11/keysym.h>
