@@ -7,7 +7,7 @@ Version:   %{version}
 Release:   %{release}
 Group:     System/Internationalization
 License:   GPL
-URL:       http://kimera.sourceforge.jp/
+URL:       https://kimera.sourceforge.jp/
 Source0:   http://prdownloads.sourceforge.jp/kimera/17746/%{name}-%{version}.tar.gz
 Patch0:    kimera-1.40-gcc43.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
