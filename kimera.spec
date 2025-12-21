@@ -12,6 +12,7 @@ Source0:   http://prdownloads.sourceforge.jp/kimera/17746/%{name}-%{version}.tar
 Patch0:    kimera-1.40-gcc43.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:        anthy, prime
+BuildRequires:	make
 BuildRequires:   anthy-devel, prime
 BuildRequires:   qt4-devel
 
